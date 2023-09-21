@@ -1,0 +1,132 @@
+/* Geral */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #323232;
+  border: none;
+}
+body {
+  background-image: url(./assets/wp3308206.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position-y: -100px;
+  height: 50vh;
+}
+textarea:focus,
+input:focus {
+  outline: none;
+}
+a,
+label {
+  font-size: 0.8rem;
+}
+a:hover {
+  color: #08558b;
+}
+/* login-container */
+
+#login-container {
+  background-color: white;
+  width: 90%;
+  max-width: 400px;
+  margin: 10vh auto;
+  /* margin-left: auto;
+  margin-right: auto; */
+  padding: 20px 5%;
+  /* margin-top: 10vh; */
+  border-radius: 10px;
+  text-align: center;
+}
+
+/* Formulário */
+
+form {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+label,
+input {
+  display: block;
+  width: 100%;
+  text-align: left;
+}
+label {
+  font-weight: bold;
+}
+input {
+  border-bottom: solid 2px #323232;
+  padding: 10px;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+input:focus {
+  border-bottom: 2px solid #08558b;
+}
+
+#forgot-pass {
+  text-align: right;
+  display: block;
+}
+
+input[type="submit"] {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: none;
+  height: 40px;
+  border-radius: 40px;
+  margin-top: 30px;
+  color: white;
+  background-color: rgb(4, 193, 4);
+  cursor: pointer;
+}
+input[type="submit"]:hover {
+  background-color: rgb(3, 165, 3);
+  transition: 0.5s;
+}
+
+/* Redes Sociais */
+
+#social-container,
+#social-container p {
+  margin-bottom: 20px;
+}
+#social-container i {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  line-height: 40px;
+  color: white;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.fa-facebook-f {
+  background-color: #3b5998;
+}
+.fa-linkedin-in {
+  background-color: #0077b5;
+}
+.fa-facebook-f:hover {
+  background-color: #6089e3;
+  transition: 0.5s;
+}
+.fa-linkedin-in:hover {
+  background-color: #18a8f5;
+  transition: 0.5s;
+}
+
+/* Register */
+
+.register-container p {
+  margin-bottom: 10px;
+}
+@media (max-width: 769px) {
+  body {
+    background-position-y: 0px; /* Ajuste o valor conforme necessário */
+  }
+}
